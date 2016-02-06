@@ -1,0 +1,85 @@
+
+/*-----------------mycode-------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h1 {
+	background: #901736;
+	padding: 15px;
+	border: 5px solid black;
+}
+
+p {
+	color:white;
+	background:gray;
+	padding:15px;
+	border: 5px solid black;
+}
+
+code {
+	color:black;
+	background:white;
+	padding: 2px 5px;
+	border: 1px solid black;
+}
+
+.different code{
+	background:#298716;
+}
+
+.sitenav{
+	padding: 0;
+	margin: 0;
+
+}
+
+.sitenav li{
+	display:inline-block;
+}
+
+.sitenav a{
+	color:white;
+	padding:20px;
+	background-color:#101888;
+	border-right:1px solid white;
+	text-decoration: none;
+	font-size:20px;
+}
+
+.sitenav a:hover{
+	background-color:purple;
+}
+
+.sitenav a:focus{
+	border: 1px dotted black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
