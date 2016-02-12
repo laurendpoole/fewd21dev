@@ -1,4 +1,5 @@
 /* Box Model Hack */
+
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -6,6 +7,7 @@
 }
 
 /* Clear fix hack */
+
 .clearfix:after {
      content: ".";
      display: block;
@@ -19,8 +21,141 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: "OpenSans", Arial, sans-serif;
 }
+
+/* Lauren's Code */
+
+
+.intro{
+     height:700px;
+     background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+    /* background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+}
+
+.logo{
+     font-size:40px;
+     width:200px;
+     font-weight:600;
+     color:white;
+     margin-left:50px;
+     padding-top:20px;
+}
+
+.container {
+  width: 960px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.header{
+     font-size:48px;
+     font-weight:600;
+     text-align:center;
+     color:white;
+     margin-left:auto;
+     margin-right:auto;
+     margin-top:125px;
+}
+
+.button{
+     background:#f9e42e;
+      display: block;
+     margin: 100px auto;
+     color:#033048;
+     font-size:28px;
+     text-align:center;
+     font-weight:800;
+     width:280px;
+     border-radius:5px;
+     padding:12px 30px;
+     text-decoration: none;
+}
+
+.benefits{
+     font-size:26px;
+     width:600px;
+     margin-left:10%;
+     color:gray;
+}
+
+.Section2Header1{
+     font-size:40px;
+     color:black;
+     font-weight:600;
+     padding-top:80px;
+     padding-bottom:50px;
+}
+
+.list {
+     padding-top:50px;
+     padding-bottom:100px;
+     list-style-type:disc;
+     margin-left:100px;
+}
+
+
+.quoteSection{
+     padding-top:70px;
+     padding-bottom:70px;
+     background: url(../images/testimonial_bg.jpg) no-repeat top center #131e27;
+     color:white;
+     font-size:28px;
+     text-align: center;
+}
+
+.quote {
+     font-style:italic;
+     margin-left:auto;
+     margin-right:auto;
+     width:500px;
+}
+
+.signup{
+     background-color:#f9e42e;
+     height:125px;
+     padding:30px;
+}
+
+.signup a{
+     background-color:#033048;
+     color:white;
+     margin-top:0px;
+}
+
+.footer{
+     background-color:black;
+     color:white;
+     height:400px;
+     text-align:center;
+}
+
+.logofooter{
+     color:#f9e42e;
+     font-size:40px;
+     width:200px;
+     font-weight:800;
+     margin-left:auto;
+     margin-right:auto;
+     padding-top:50px;
+     margin-bottom:75px;
+}
+.twitter{
+     margin-right:50px;
+}
+
+.copyright{
+     margin-top:75px;
+     font-size:20px;
+     font-weight:300;
+}
+
+
+
+
+
+
+
+
+
 

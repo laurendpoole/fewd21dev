@@ -70,7 +70,7 @@ html {
 ul{
 	padding: 60px 0;
 	margin: 0;
-	width:50%;
+	width:70%;
 	float:right;
 	text-align:right;
 	display:block;
@@ -78,7 +78,7 @@ ul{
 
 ul li{
 	display:inline-block;
-	width:20%;
+	width:15%;
 	padding: 15px;
 	background-color:gray;
 
@@ -114,7 +114,7 @@ ul li{
 .main .inner{
 	height:300px;
 }
-
+/*
 @media only screen and (max-width: 768px) {
 	.pageHeader, ul, .main, .thumbnails > div, .footer{
 		width: 100%;
@@ -124,6 +124,6 @@ ul li{
 		display: block;
 	}
 }
-
+*/
 
 
