@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 //SF
 	else if(city == "san francisco" || city == "sf" || city == "bay area" ){
-        $('body').attr('class','sf');
+        $('body').attr('class','SF');
         console.log('sf');
 
      }
