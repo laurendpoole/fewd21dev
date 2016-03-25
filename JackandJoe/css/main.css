@@ -1,0 +1,230 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+
+/*All Pages*/
+
+body{
+	font-family: 'lato', sans-serif;
+}
+
+a:link{
+	text-decoration: none;
+	color:white;
+}
+
+a:visited{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover{
+	font-style: italic;
+}
+
+nav{
+	margin-top:25px;
+	float:right;
+	font-weight:700;
+	color:white;
+	font-size: 20px;
+}
+
+.navigation{
+	position:relative;
+	max-width: 960px;
+	width:100%;
+	margin:0 auto;
+	padding:0 25px;
+}
+
+/*.navigationScroll{
+	position:fixed;
+	max-width: 960px;
+	width:100%;
+	margin:0 auto;
+	padding:0 25px;
+	background:blue;
+}*/
+
+
+nav ul li{
+	display:inline-block;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-size:90px;
+	font-weight:700;
+	color:white;
+	width:100%;
+	margin:50% auto;
+	text-align: center;
+}
+
+.topContainer{
+  	background: url(../images/jackHeader.jpg) no-repeat center center ;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+
+.topContainer h1{
+	width:100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.nameContainer{
+	height:40%;
+	padding:23% 20px;
+}
+
+
+footer{
+	background:#F8B447;
+}
+
+footer p{
+	color:white;
+	font-weight: 700;
+	max-width: 960px;
+	width:100%;
+	text-align: center;
+	margin:0 auto;
+	padding:25px;
+}
+
+
+
+/*Splash Page*/
+
+.Splash {
+	max-width: 960px;
+	width:100%;
+	margin: 0 auto;
+	padding:15px;
+	font-family: 'Lato', sans-serif;
+  	background: url(../images/flowerHeader.jpg) no-repeat center center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+
+/*Jack*/
+
+.backgroundBirds{
+	background: url(../images/birdHeader.jpg) no-repeat center center ;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.backgroundFlowers{
+	background: url(../images/flowerHeader.jpg) no-repeat center center ;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.backgroundButterflies{
+	background: url(../images/butterflyHeader.jpg) no-repeat center center ;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+.sectionContainers{
+    height: 25%;
+    padding: 20% 20px;
+}
+
+h2{
+	font-size:40px;
+	font-weight: 700;
+	border:3px solid #F8B447;
+	padding:10px;
+	color:white;
+	text-align: center;
+	margin:0 auto;
+}
+
+.backgroundBirds h2{
+	width:175px;
+}
+
+
+.backgroundFlowers h2{
+	width:240px;
+}
+
+.backgroundButterflies h2{
+	width:300px;
+}
+
+.text{
+	max-width: 540px;
+	width: 100%;
+	padding:0 30px;
+	margin: 150px auto;
+}
+
+.birdGallery1{
+	max-width: 960px;
+	width:100%;
+	padding:0 20px;
+	margin:0 auto 150px auto;
+}
+
+.birdGallery1 img{
+	position:inline;
+	width:300px;
+	padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
