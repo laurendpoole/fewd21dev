@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <title>Jack and Joe</title>
         <link rel="stylesheet" href="css/reset.css">
-        <link href="path/to/lightbox.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/swiper.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
     </head>
         <body>
 
@@ -43,24 +45,44 @@
 
 
 
-            <div class="birdGallery1">
-                <a href="images/bird10.jpg" data-lightbox="Birds"><img src="images/bird10.jpg" alt="White Bird"></a>
-                <a href="images/bird5.jpg" data-lightbox="Birds"><img src="images/bird5.jpg" alt="Yellow Bird"></a>
-                <a href="images/bird2.jpg" data-lightbox="Birds"><img src="images/bird2.jpg" alt="Red Bird"></a>
-                <a href="images/bird7.jpg" data-lightbox="Birds"><img src="images/bird7.jpg" alt="Red Bird"></a>
-                <a href="images/bird4.jpg" data-lightbox="Birds"><img src="images/bird4.jpg" alt="Two Birds"></a>
-                <a href="images/bird13.jpg" data-lightbox="Birds"><img src="images/bird13.jpg" alt="Blue Birds"></a>
-                <a href="images/bird6.jpg" data-lightbox="Birds"><img src="images/bird6.jpg" alt="Brown Bird"></a>
-                <a href="images/bird12.jpg" data-lightbox="Birds"><img src="images/bird12.jpg" alt="Yellow Bird"></a>
-                <a href="images/bird9.jpg" data-lightbox="Birds"><img src="images/bird9.jpg" alt="Blue Bird"></a>
-        </div>  
+            <div class="gallery">
+                <a class="fancybox" rel="gallery1" href="images/bird10.jpg"><img src="images/bird10.jpg" alt="White Bird"></a>
 
+                <a class="fancybox" rel="gallery1" href="images/bird5.jpg"><img src="images/bird5.jpg" alt="Yellow Bird"></a>
 
+                <a class="fancybox" rel="gallery1" href="images/bird2.jpg"><img src="images/bird2.jpg" alt="Red Bird"></a>
 
+                <a class="fancybox" rel="gallery1" href="images/bird7.jpg" ><img src="images/bird7.jpg" alt="Red Bird"></a>
 
+                <a class="fancybox" rel="gallery1"  href="images/bird4.jpg"><img src="images/bird4.jpg" alt="Two Birds"></a>
 
+                <a class="fancybox" rel="gallery1" href="images/bird13.jpg"><img src="images/bird13.jpg" alt="Blue Birds"></a>
 
+                <a class="fancybox" rel="gallery1" href="images/bird6.jpg"><img src="images/bird6.jpg" alt="Brown Bird"></a>
+
+                <a class="fancybox" rel="gallery1" href="images/bird12.jpg"><img src="images/bird12.jpg" alt="Yellow Bird"></a>
+
+                <a class="fancybox" rel="gallery1" href="images/bird9.jpg"><img src="images/bird9.jpg" alt="Blue Bird"></a>
+        </div>
                
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <img class="swiper-slide" src="images/bird10.jpg" alt="White Bird">
+        <img class="swiper-slide" src="images/bird5.jpg" alt="Yellow Bird">
+        <img class="swiper-slide" src="images/bird2.jpg" alt="Red Bird">
+        <img class="swiper-slide" src="images/bird7.jpg" alt="Red Bird">
+        <img class="swiper-slide" src="images/bird4.jpg" alt="Two Birds">
+        <img class="swiper-slide" src="images/bird13.jpg" alt="Blue Bird">
+        <img class="swiper-slide" src="images/bird6.jpg" alt="Brown Bird">
+        <img class="swiper-slide" src="images/bird12.jpg" alt="Yellow Bird">
+        <img class="swiper-slide" src="images/bird9.jpg" alt="Blue Bird">
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>
+        
+
             <div class="backgroundFlowers">
                 <div class="sectionContainers">
                     <h2>FLOWERS</h2>
@@ -72,11 +94,68 @@
                 </p>
             </section>
 
+            <div class="gallery">
+                <a class="fancybox" rel="gallery1" href="images/bird10.jpg"><img src="images/bird10.jpg" alt="White Bird"></a>
+
+                <a class="fancybox" rel="gallery1" href="images/bird5.jpg"><img src="images/bird5.jpg" alt="Yellow Bird"></a>
+
+                <a class="fancybox" rel="gallery1" href="images/bird2.jpg"><img src="images/bird2.jpg" alt="Red Bird"></a>
+
+                <a class="fancybox" rel="gallery1" href="images/bird7.jpg" ><img src="images/bird7.jpg" alt="Red Bird"></a>
+
+                <a class="fancybox" rel="gallery1"  href="images/bird4.jpg"><img src="images/bird4.jpg" alt="Two Birds"></a>
+
+                <a class="fancybox" rel="gallery1" href="images/bird13.jpg"><img src="images/bird13.jpg" alt="Blue Birds"></a>
+        </div>
+               
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <img class="swiper-slide" src="images/bird10.jpg" alt="White Bird">
+        <img class="swiper-slide" src="images/bird5.jpg" alt="Yellow Bird">
+        <img class="swiper-slide" src="images/bird2.jpg" alt="Red Bird">
+        <img class="swiper-slide" src="images/bird7.jpg" alt="Red Bird">
+        <img class="swiper-slide" src="images/bird4.jpg" alt="Two Birds">
+        <img class="swiper-slide" src="images/bird13.jpg" alt="Blue Bird">
+ 
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>
+
             <section class="text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh turpis, posuere at vestibulum at, pharetra vitae lectus. Etiam tristique eget sapien sed imperdiet. Proin interdum turpis a felis tempus, eget vulputate mauris 
                 </p>
             </section>
 
+         <div class="gallery">
+                <a class="fancybox" rel="gallery3" href="images/pinkFlower6.jpg"><img src="images/pinkFlower6.jpg" alt="Pink Flower"></a>
+
+                <a class="fancybox" rel="gallery3" href="images/purpleFlower.jpg"><img src="images/purpleFlower.jpg" alt="Purple Flower"></a>
+
+                <a class="fancybox" rel="gallery3" href="images/bouquet3.jpg"><img src="images/bouquet3.jpg" alt="Bouquet"></a>
+
+                <a class="fancybox" rel="gallery3" href="images/bouquet2.jpg" ><img src="images/bouquet2.jpg" alt="Bouquet"></a>
+
+                <a class="fancybox" rel="gallery3"  href="images/pinkFlower10.jpg"><img src="images/pinkFlower10.jpg" alt="Pink Flower"></a>
+
+                <a class="fancybox" rel="gallery3" href="images/pinkFlower5.jpg"><img src="images/pinkFlower5.jpg" alt="Pink Flower"></a>
+        </div>
+               
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <img class="swiper-slide" src="images/pinkFlower6.jpg" alt="Pink Flower">
+        <img class="swiper-slide" src="images/purpleFlower.jpg" alt="Purple Flower">
+        <img class="swiper-slide" src="images/bouquet3.jpg" alt="bouquet">
+        <img class="swiper-slide" src="images/bouquet2.jpg" alt=" bouquet">
+        <img class="swiper-slide" src="images/pinkFlower10.jpg" alt="Pink Flower">
+        <img class="swiper-slide" src="images/pinkFlower5.jpg" alt="Pink Flower">
+ 
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>
 
             <div class="backgroundButterflies">
                 <div class="sectionContainers">
@@ -89,6 +168,35 @@
                 </p>
             </section>
 
+         <div class="gallery">
+                <a class="fancybox" rel="gallery4" href="images/butterfly2.jpg"><img src="images/butterfly2.jpg" alt="White Bird"></a>
+
+                <a class="fancybox" rel="gallery4" href="images/butterfly6.jpg"><img src="images/butterfly6.jpg" alt="Yellow Bird"></a>
+
+                <a class="fancybox" rel="gallery4" href="images/butterfly3.jpg"><img src="images/butterfly3.jpg" alt="Red Bird"></a>
+
+                <a class="fancybox" rel="gallery4" href="images/butterfly5.jpg" ><img src="images/butterfly5.jpg" alt="Red Bird"></a>
+
+                <a class="fancybox" rel="gallery4"  href="images/butterfly4.jpg"><img src="images/butterfly4.jpg" alt="Two Birds"></a>
+
+                <a class="fancybox" rel="gallery4" href="images/butterfly.jpg"><img src="images/butterfly.jpg" alt="Blue Birds"></a>
+        </div>
+               
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <img class="swiper-slide" src="images/butterfly2.jpg" alt="White Bird">
+        <img class="swiper-slide" src="images/butterfly6.jpg" alt="Yellow Bird">
+        <img class="swiper-slide" src="images/butterfly3.jpg" alt="Red Bird">
+        <img class="swiper-slide" src="images/butterfly5.jpg" alt="Red Bird">
+        <img class="swiper-slide" src="images/butterfly4.jpg" alt="Two Birds">
+        <img class="swiper-slide" src="images/butterfly.jpg" alt="Blue Bird">
+ 
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>
+
             <section class="text">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh turpis, posuere at vestibulum at, pharetra vitae lectus. Etiam tristique eget sapien sed imperdiet. Proin interdum turpis a felis tempus, eget vulputate mauris 
                 </p>
@@ -99,9 +207,12 @@
             </footer>
 
  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script src="path/to/lightbox.js"></script>
+
     </body>
 </div>
 </html>

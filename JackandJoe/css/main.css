@@ -193,18 +193,48 @@ h2{
 	margin: 150px auto;
 }
 
-.birdGallery1{
+.gallery{
 	max-width: 960px;
 	width:100%;
 	padding:0 20px;
 	margin:0 auto 150px auto;
 }
 
-.birdGallery1 img{
-	position:inline;
-	width:300px;
+.gallery img{
+	width:33%;
 	padding:10px;
 }
+
+.swiper-container {
+	display: none;
+    width: 75%;
+    height: auto;
+    margin-bottom: 150px
+}
+
+@media screen and (max-width: 768px){
+
+.swiper-container img{
+	display:inline;
+	width:100%;
+	margin:0 auto;
+}
+
+.fancybox{
+	display: none;
+}
+
+.swiper-container{
+	display: block;
+}
+
+}
+
+
+
+
+
+
 
 
 
