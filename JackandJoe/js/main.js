@@ -50,8 +50,6 @@ $(window).scroll(function() {
 
 
 
-
-
 });
 
 	
