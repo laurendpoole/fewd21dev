@@ -39,30 +39,42 @@ a:hover{
 	font-style: italic;
 }
 
-nav{
-	margin-top:25px;
-	float:right;
-	font-weight:700;
-	color:white;
-	font-size: 20px;
+
+.logo{
+	width:40px;
+	margin:5px;
+	float: left;
 }
 
 .navigation{
+	z-index: 999;
 	position:relative;
-	max-width: 960px;
-	width:100%;
-	margin:0 auto;
-	padding:0 25px;
+	top:0;
+	float:left;
+	font-weight:700;
+	color:white;
+	font-size: 20px;
+	height:50px;
 }
 
-/*.navigationScroll{
-	position:fixed;
+
+nav{	
 	max-width: 960px;
-	width:100%;
 	margin:0 auto;
-	padding:0 25px;
-	background:blue;
-}*/
+}
+
+nav ul{
+	padding-top:15px;
+	padding-right:15px;
+	float:right;
+}
+
+.sticky{
+	background:#F8B447;
+	position:fixed;
+	top:0;
+	width: 100%;
+}
 
 
 nav ul li{
@@ -76,6 +88,7 @@ h1{
 	color:white;
 	width:100%;
 	margin:50% auto;
+	letter-spacing: 2px;
 	text-align: center;
 }
 
@@ -131,6 +144,10 @@ footer p{
  	background-size: cover;
 }
 
+.Splash header h1{
+	background: blue;
+	margin:30% 0;
+}
 
 /*Jack*/
 
@@ -210,6 +227,23 @@ h2{
     width: 75%;
     height: auto;
     margin-bottom: 150px
+}
+
+.swiper-button-prev{
+	background: url(../images/leftButton.png) no-repeat center center;
+	padding-left:30px;
+}
+
+.swiper-button-next{
+	background: url(../images/nextButton.png) no-repeat center center;
+	padding-right:30px;
+}
+
+.swiper-pagination-bullet{
+	background-color: green;
+}
+.swiper-pagination-bullet-active{
+	background-color:#F8B447;
 }
 
 @media screen and (max-width: 768px){

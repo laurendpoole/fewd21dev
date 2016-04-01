@@ -8,7 +8,7 @@ $(document).ready(function() {
 	});
 
     var mySwiper = new Swiper ('.swiper-container', {
-       pagination: '.swiper-pagination',
+       	pagination: '.swiper-pagination',
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         slidesPerView: 1,
@@ -16,6 +16,41 @@ $(document).ready(function() {
         spaceBetween: 30,
         loop: true
     })   
+
+    // var mn = $(".navigation");
+
+    // $(window).scroll(function(){
+    // 	if($(this).scrollTop()> 700){
+    // 		mn.addClass("main-nav-sticky");
+    // 	}
+    // 	else{
+    // 		mn.removeClass("main-nav-sticky");
+    // 	}
+
+    // });
+
+
+var stickyNavTop = $('.navigation').offset().top;
+ 
+var stickyNav = function(){
+var scrollTop = $(window).scrollTop();
+      
+if (scrollTop > stickyNavTop) { 
+    $('.navigation').addClass('sticky');
+} else {
+    $('.navigation').removeClass('sticky'); 
+}
+};
+ 
+stickyNav();
+ 
+$(window).scroll(function() {
+    stickyNav();
+});
+
+
+
+
 
 });
 
